@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,400&display=swap" rel="stylesheet"> 
+
+        <!-- SimpleLightbox CSS -->
+        <link rel="stylesheet" href="css/simplelightbox.min.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <title>PuFH Residence</title>
+    </head>
+    <body>
+
+        <!-- Navigation bar -->
+        <nav id="mainNavbar" class="navbar navbar-dark bg-transparent fixed-top navbar-expand-lg">
+            <a class="navbar-brand justify-content-start" href="#">PuFH Residence</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks" aria-controls="navbarLinks" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarLinks">
+                <ul class="navbar-nav">
+                    <li><a class="nav-item nav-link px-4" href="#">Home</a></li>
+                    <li><a class="nav-item nav-link px-4" href="#">Pictures</a></li>
+                    <li><a class="nav-item nav-link px-4" href="#">Rent a room</a></li>
+                    <li><a class="nav-item nav-link px-4" href="#">Contact us</a></li>
+                </ul>  
+            </div>       
+        </nav>
+
+        <!-- Front page -->
+        <section class="section-a">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-sm-8 col-md-6">
+                        <div class="text-start d-block">
+                            <div class="jumbotron">
+                                <h1>Nice and cozy house located in Sleman, Yogyakarta</h1>
+                                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis quas adipisci natus totam id sed suscipit consequuntur possimus tempora! Consequatur!</p>
+                                <p class="lead">
+                                    <a class="btn btn-primary btn-lg" href="#" role="button">Rent room</a>
+                                    <a class="btn btn-primary btn-lg" href="#" role="button">Contact us</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery -->
+        <section class="section-b">
+            <div class="gallery">
+                <a href="img/pic1.jpg" class="big"><img src="img/pic1.jpg" alt=""></a>
+                <a href="img/pic1.jpg" class="big"><img src="img/pic1.jpg" alt=""></a>
+                <a href="img/pic1.jpg" class="big"><img src="img/pic1.jpg" alt=""></a>
+                <a href="img/pic1.jpg" class="big"><img src="img/pic1.jpg" alt=""></a>
+                <a href="img/pic1.jpg" class="big"><img src="img/pic1.jpg" alt=""></a>
+            </div>
+        </section>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS, then SimpleLightbox JS -->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="js/simple-lightbox.min.js"></script>
+        <script>
+            $(function() {
+                const $gallery = $('.gallery a').simpleLightbox();
+            });
+        </script>
+        <!-- Custom JS -->
+        <script src="js/script.js"></script>
+    </body>
+</html>
